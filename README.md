@@ -1,6 +1,6 @@
 # campaign
 Creating a site for 9/21/2018 Awesome inc Project 1.
-# 1. For converting sass files to css follow the instructions below, cd into your sass directory and enter this into your terminal: $ ../node_modules/.bin/sass {{NAME}}.scss output.css --watch
+# 1. For converting sass files to css follow the Basic Sass installation instructions below, cd into your sass directory and enter this into your terminal: $ ../node_modules/.bin/sass {{NAME}}.scss output.css --watch
 
 #Basic Sass installation instructions:
 
