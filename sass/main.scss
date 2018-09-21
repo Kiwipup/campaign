@@ -1,6 +1,31 @@
 //Variable overrides can go here
+$pinkish: #D499B9;
+$purple: #9055A2;
+$darkpurple: #2E294E;
+$indigo: #011638;
+$lightgreen: #C5E99B;
+$seafoam: #8FBC94;
+$tealdilute: #548687;
+$fadedpurp: #56445D;
 
+
+$primary:       $pinkish;
+$secondary:     $purple;
+$success:       $darkpurple;
+$info:          $indigo;
+$warning:       $lightgreen;
+$danger:        $seafoam;
+$light:         $tealdilute;
+$dark:          $fadedpurp;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 //CSS overrides can go here
+.jumbotron {
+        background-image: url(https://res.cloudinary.com/sfp/image/upload/oth/FunimationStoreFront/1498690/English/1498690_English_ContinueWatchingDesktop_a57b1910-e3ab-e811-8175-020165574d09.jpg);
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
