@@ -7,7 +7,9 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \\\"Error: no test specified\\\" && exit 1\""
+    "test": "echo \\\"Error: no test specified\\\" && exit 1\"",
+    "sass": "../node_modules/.bin/sass --watch main.scss output.css",
+    "browser-sync": ".node_modules/.bin/browser-sync start --server --files output.css"
   },
   "repository": {
     "type": "git",
